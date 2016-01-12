@@ -1,0 +1,38 @@
+{
+  "name": "rspec-openldap",
+  "version": "0.0.1",
+  "author": "Isaiah",
+  "license": "Apache-2.0",
+  "summary": "Puppet OpenLDAP module",
+  "dependencies": [
+    {"name":"puppetlabs/stdlib","version_requirement":">= 2.4.0 < 5.0.0"},
+    {"name":"puppetlabs/concat","version_requirement":">= 1.1.1 < 2.0.0"},
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Solaris",
+      "hardwaremodel": [
+        "i86pc",
+        "sun4v"
+      ]
+    },
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "6"
+      ]
+    },
+    {
+    "operatingsystem": "CentOS",
+      "operatingsystemrelease": [
+        "6"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 4.0.0 < 5.0.0"
+    }
+  ]
+}
